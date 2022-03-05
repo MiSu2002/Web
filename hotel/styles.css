@@ -224,7 +224,7 @@ body{
     height: auto;
     padding: 3%;
     background-size: cover;
-    box-shadow: 2px 4px 6px 4px rgba(0,0,0, 0.3);;
+    box-shadow: 2px 4px 6px 4px rgba(255, 132, 204, 0.5);;
 }
 .content1 p{
     font-family: Staatliches;
@@ -323,10 +323,4 @@ mark.pink{
 .bbar p{
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.line{
-    border-left: 3px solid whitesmoke;
-    height: 3%;
-    padding: 3%;
-    position: absolute;
 }
