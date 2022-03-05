@@ -1,0 +1,332 @@
+body{
+   overflow: auto;
+}
+.picture{
+        width: 100%;
+        height: 670px;
+        background-image: url('https://travel.usnews.com/static-atlas/assets/img/travel/rewards/hotels-%D1%81%D1%81.jpg');
+        background-size: cover;
+        position: relative;
+}
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-image: url('preloader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    margin: 0;
+    background-size: 12%;
+    color: whitesmoke;
+}
+.navbar{
+    background-color: transparent;
+}
+.brand{
+    font-family: Cinzel;
+    font-size: 37px;
+    color: whitesmoke;
+    animation-name: fadeInOut;
+    animation-delay: 3.5s;
+    animation-duration: 4s;
+}
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+.btn1{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    font-family: Montserrat;
+    padding: 13px;
+    background-position: center;
+    color: whitesmoke;
+    border-radius: 0px;
+}
+.btn1:hover{
+    border: 2px solid whitesmoke;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+}
+.btn1 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.btn1 a:hover{
+    color: whitesmoke
+}
+.phone{
+    color: whitesmoke;
+    margin-right: -10%;
+}
+.user{
+    color: whitesmoke;
+    margin-right: -10%;
+}
+.fa-phone{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px 50px;
+}
+.phone a{
+    color: whitesmoke;
+}
+.user a{
+    color: whitesmoke;
+}
+.fa-phone:hover{
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+}
+.fa-user:hover{
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+}
+.fa-user{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px 50px;
+}
+.content{
+    padding: 3%;
+}
+.container input[type='button']{
+    position: absolute;
+	bottom: 14%;
+    left: 44%;
+    font-family: Montserrat;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.downArrow{
+	position: absolute;
+	bottom: 8%;
+	left: 50%;
+}
+.fa-angle-down{
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .about0 p{
+      margin-top: 7%;
+      margin-bottom: 4%;
+      font-family: Staatliches;
+      padding-left: 27%;
+      text-align: left;
+      color: #a74465;
+  }
+  .about0 h2{
+      font-family: Staatliches;
+      padding-left: 27%;
+      text-align: left;
+      color: #940d3a;
+      word-spacing: 6px;
+  }
+  .about0 h5{
+      font-family: helvetica;
+      font-size: 17px;
+      font-weight: 500;
+      color: #000000;
+      margin-left: 20%;
+      padding: 5% 0;
+      padding-left: 8%;
+      padding-right: 5%;
+      line-height: 2;
+      text-align: left;
+  }
+  
+  #image{
+      width: 100%;
+      height: 600px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+      
+  }
+  .svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 320px;
+    margin-top: 3%; 
+  }
+  .shape {
+    stroke-dasharray: 130 530;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #ff1288;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: Righteous;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    top: -48px;
+    position: relative;
+  }
+  .text a{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+  }
+  .text a:hover{
+      color: #ff1288;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
+  .content00{
+      padding: 4%
+  }
+.content1{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    background-size: cover;
+    box-shadow: 2px 4px 6px 4px rgba(255, 132, 204, 0.5);;
+}
+.content1 p{
+    font-family: Staatliches;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 2%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.content2{
+    margin-top: 15%;
+    padding: 4%;
+    border: 2px solid;
+    border-image: linear-gradient(15deg, rgb(255, 22, 158), rgb(22, 247, 255), #252525) 2;
+}
+.content2 h5{
+    text-align: center;
+    font-size: 45px;
+    font-family: Staatliches;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #181818;
+}
+mark.pink{
+    background: rgb(228, 228, 228);
+    color: rgb(225,48,108);
+    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #fc4040, #F56040, #F77737, #FCAF45, #FFDC80);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+}
+.content2 p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: Righteous;
+    font-weight: 300;
+}
+.content2 h6{
+    text-align: center;
+    font-size: 26px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    margin-left: 1%;
+    font-family: Staatliches;
+    animation: blink 2s linear infinite;
+}
+.content2 h6 a{
+    color: #252525;
+    text-decoration: 3px solid #252525 underline;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    45%{opacity: .5;}
+    75%{opacity: .75;}
+    100%{opacity: 1;}
+    }
+.fa-angles-right{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 22%;
+}
+.bbar{
+    padding: 2%;
+    width: 100%;
+    margin-top: 4%;
+    height: 100%;
+    position: relative;
+    background-color: #252525;
+    color: whitesmoke;
+}
+.fa-envelope{
+    font-size: 30px;
+}
+.fa-message{
+    font-size: 28px;
+}
+.fa-telegram{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.bbar p a{
+    color: whitesmoke;
+}
+.bbar p a:hover{
+    color: rgb(107, 107, 107);
+}
+.bbar p{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line{
+    border-left: 3px solid whitesmoke;
+    height: 3%;
+    padding: 3%;
+    position: absolute;
+}
